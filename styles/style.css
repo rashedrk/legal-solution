@@ -61,6 +61,22 @@ client feedback section
 }
 
 /*------------
+footer section 
+-------------*/
+footer a{
+    text-decoration: none;
+    color: #CFCFCF
+}
+footer button {
+    position: relative;
+    right: 10px;
+}
+footer p {
+    color: #CFCFCF
+}
+
+
+/*------------
 media queries for responsive  
 ------------*/
 @media screen and (max-width:576px) {
