@@ -5,8 +5,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.title{
+    font-family: 'EB Garamond', serif;
+}
 /*------------
-primary button 
+utilities 
 -------------*/
 .btn-primary{
     background-color: #B68C5A;
@@ -14,4 +17,22 @@ primary button
 }
 .btn-primary:hover{
     background-color: #b77b31fe;
+}
+
+.title{
+    font-weight: 800;
+    font-size: 72px;
+}
+.title-info{
+    color: #E7E7E7;
+}
+/*------
+banner 
+--------*/
+.banner{
+    height: 35rem;
+    background-image: url(../images/Rectangle\ 5.png), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:center;
 }
