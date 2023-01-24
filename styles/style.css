@@ -40,3 +40,38 @@ banner
     background-size:auto;
     background-position:center;
 }
+
+/*---------------------
+legal practice section  
+---------------------*/
+.legal-practice:hover{
+    background-image: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+/*---------------------
+client feedback section  
+----------------------*/
+.carousel-caption{
+    top: 30%;
+}
+.gradient-image{
+    position: absolute;
+    top: 0;
+}
+
+/*------------
+media queries for responsive  
+------------*/
+@media screen and (max-width:576px) {
+    .carousel-caption{
+        top: 0;
+    }
+    .carousel-caption p {
+        font-size: 0.5rem;
+        margin: 5px;
+    }
+    .carousel-caption h3{
+        font-size: 1rem;
+        margin: 0px;
+    }
+}
